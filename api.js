@@ -1,3 +1,16 @@
+function addelement(term, desc) {
+    var completelist = document.getElementById("theList");
+
+    if (term == 'You') {
+        completelist.innerHTML += '<dt' + '<img src = "you.png" width = "40" height = "40">' + '</dt>';
+        completelist.innerHTML += '<dd>' + desc + '</dd>';
+    } else {
+        completelist.innerHTML += '<dt' + '<img src = "chatgpt.png" width = "40" height = "40">' + '</dt>';
+        completelist.innerHTML += '<dd>' + desc + '</dd>';
+    }
+
+}
+
 document.getElementById('submit-button').addEventListener('click', async() => {
     const inputText = document.getElementById('input-text');
     const outputText = document.getElementById('output-text');
