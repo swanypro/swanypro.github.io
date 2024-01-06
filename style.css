@@ -1,0 +1,74 @@
+/* 基本样式 */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+
+/* 容器样式 */
+
+div {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 标题样式 */
+
+h1 {
+    color: #333;
+}
+
+
+/* 文本框样式 */
+
+textarea#input-text {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* 按钮样式 */
+
+button#submit-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#submit-btn:hover {
+    background-color: #004494;
+}
+
+
+/* 列表样式 */
+
+dl#theList {
+    margin: 20px 0;
+}
+
+dl#theList dt {
+    font-weight: bold;
+}
+
+dl#theList dd {
+    margin-bottom: 10px;
+}
