@@ -24,7 +24,7 @@ document.getElementById('submit-button').addEventListener('click', async() => {
 });
 
 async function chatGPT(message) {
-    const apiKey = sk - wRiF6xgGjXcowXRwIeqpT3BlbkFJDkoDpzQxWriJtSO6MgQF;
+    const apiKey ='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';
     const endpoint = 'https://api.openai.com/v1/engines/davinci/completions';
     const data = {
         message: [{ role: 'system', content: 'You' }, { role: 'user', content: message }],
